@@ -1,0 +1,94 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-image: url(/BeCode/404-page/Assets/wp7527061-racing-track-wallpapers.jpg) ;
+    background-color: rgb(171, 33, 33);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    padding-top: 3vw;
+}
+/* Header position and hover properties */
+header ul { 
+    text-align: center;
+    padding: 30px;
+}
+header nav li {
+    margin: 12px;
+    list-style: none;
+    display: inline-block;
+}
+header nav li a {
+    font-size: 1.4rem;
+    padding: 7px;
+    text-transform: uppercase;
+    color : #fff;
+    text-decoration: none;
+}
+ header nav li a:hover{
+    border-bottom: 1px solid white
+ }
+ /* Footer position and hover properties */
+ .footer ul { 
+    text-align: center;
+    padding: 30px;
+}
+footer nav li {
+    margin: 12px;
+    list-style: none;
+    display: inline-block
+}
+footer nav li a {
+    font-size: 1.4rem;
+    padding: 16px;
+    text-transform: uppercase;
+    color : #fff;
+    text-decoration: none;
+    margin: 16px;
+}
+ footer nav li a:hover{
+    border-bottom: 1px solid white
+ }
+ /* Logo size in header */
+ header img {
+    width: 80px;
+    height: 60px;
+ }
+ /* F1 car size */
+ footer img {
+    width: 60px;
+    height: 40px
+ }
+ /* gif position */
+ .tenor-gif-embed {
+    display: flex;
+    height: 405px;
+    width: 720px;
+ }
+/* H1 animation */
+.waviy {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
